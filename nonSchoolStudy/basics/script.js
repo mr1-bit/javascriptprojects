@@ -44,4 +44,21 @@ const object2 = {
     }
 };
 
+console.log([1, -3, 5].filter((Value, i) =>{
+
+    // if (value >= 0) return true;
+    // else return false;
+    return value >= 0;;
+    }))
+
+// makes a new array whatever we rertun added to new array
+//transforms array into other array
+[1, 1, 3].map((value, i) => {
+    return value * 2;
+});
+//shortcut
+[1, 1, 3].map(value => value * 2); 
+
+//fyi: closure = if a fuction has a value it will always have that value gets enclosed in the function
+
 
