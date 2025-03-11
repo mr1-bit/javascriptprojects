@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="button">click</button>
+    <script src="script.js"></script>
+    <script>
+            const button = document.querySelector('.button');
+            // arrow function because it is a function in a function
+            // also has the benifit of being able to add more then 1 event listener
+            // gives more contol over events
+            const EventListener = () => {
+                console.log('clicked');
+            }
+
+            button.addEventListener('click', () => {
+                console.log('clicked');
+            });
+            
+
+            button.addEventListener('click', EventListener);
+
+            button.removeEventListener('click', EventListener);
+
+            document.body.addEventListener('keydown', (event) => {
+                if (event.key === 'a') {
+                    console.log('a was pressed');
+                }
+            });
+            // tutorial https://www.youtube.com/watch?v=EerdGm-ehJQ time stap: 10:46:00
+    </script>
+</body>
+</html>
