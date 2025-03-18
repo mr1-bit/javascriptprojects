@@ -13,3 +13,18 @@ console.log(jsondarra); // { name: 'Darra', age: 17, calc: 15 }
 console.log(jsondarra.calc); // 15
 console.log(jsondarra.age); // 17\
 console.log(jsondarra.name); // Darra
+console.log(jsondarra); // { name: 'Darra', age: 17, calc: 15 }
+console.log(jsondarra.calc); // 15
+console.log(jsondarra.age); // 17
+console.log(jsondarra.name); // Darra
+console.log(jsondarra.calc); // 15
+console.log(jsondarra.name); // Darra
+console.log(jsondarra.age); // 17
+console.log(jsondarra); // { name: 'Darra', age: 17, calc: 15 }
+console.log(jsondarra.calc); // 15
+console.log(jsondarra.age); // 17\
+console.log(jsondarra.name); // Darra
+console.log(jsondarra); // { name: 'Darra', age: 17, calc: 15 }
+console.log(jsondarra.calc); // 15
+console.log(jsondarra.age); // 17
+console.log(jsondarra.name); // Darra
