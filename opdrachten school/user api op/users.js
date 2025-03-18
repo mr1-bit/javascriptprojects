@@ -12,7 +12,7 @@ function fLaadBier_fetch() {
         })
         .then(json => {
             console.log("Bier, geladen met AJAX via FETCH API van JS:", json);
-            fJson2Html(json, "FETCH API van JS"); // geef JSON en title door aan function
+            fJson2Html(json, "TableBase"); // geef JSON en title door aan function
            
         });
     }
