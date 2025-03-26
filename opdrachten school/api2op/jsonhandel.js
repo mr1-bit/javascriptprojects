@@ -60,5 +60,3 @@ for (let i = 0; i < users.users.length; i++) {
     // const el = users.users.id[i];
     console.log(users.users[i].name)
 }
-
-  
